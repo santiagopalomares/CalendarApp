@@ -18,7 +18,7 @@ public class User {
 
    public void userNavigation(Scanner scanner) {
       while(true) {
-         System.out.println("\nNavigation:\n-CreateCalendar\n-EditCalendar\n-RemoveCalendar\n-ChangeTimeZone\n-Logout\n--------");
+         System.out.println("\nNavigation:\n-CreateCalendar\n-ViewCalendar\n-EditCalendar\n-RemoveCalendar\n-ChangeTimeZone\n-Logout\n--------");
          switch (scanner.nextLine().trim().toLowerCase()) {
             case "createcalendar":
                this.addCalendar(scanner);
